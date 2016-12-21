@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#seacret_home { 
+	text-align: center;
+	margin: -30px 0px 50px 0px;
+}
+
+.seacret_home_blocks {
+	padding: 5px; float: left; width: 33%;
+	
+}
+
+.seacret_home_blocks img {
+	width: 33%;
+}
+
+.node-promoted h2.title {
+	display: none;	
+}
+
+.node-readmore {
+	display: none;	
+}
+
+.strikethrough {
+	text-decoration: line-through; text-align: center;
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	
+	.seacret_home_blocks {
+		padding: 5px; float: left; width: 50%;
+	}
+	
+}
+
+
+@media only screen and (max-device-width: 480px) {
+	
+	.seacret_home_blocks {
+		padding: 5px; float: none; width: 100%;
+	}
+	
+}
